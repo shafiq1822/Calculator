@@ -1,0 +1,89 @@
+body {
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(199, 245, 245);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+table {
+  margin: auto;
+}
+
+.cont {
+  background-color: #e5e1e1;
+  border-radius: 8px;
+  box-shadow: 5px 5px 20px 1px rgb(107, 104, 104);
+}
+
+#screen {
+  border-radius: 8px 8px 0 0;
+  font-size: 34px;
+  width: 318px;
+  height: 70px;
+  background-color: rgba(31,41,51,255);
+  outline: none;
+  border: none;
+  text-align: right;
+  color: white;
+  /* padding: 0 1rem; */
+}
+
+button {
+  font-size: 23px;
+  background: white;
+  width: 78px;
+  height: 44px;
+}
+
+.table1 {
+  border-collapse: collapse;
+}
+
+#btn button {
+  height: 182px;
+  background-color: rgb(248, 131, 89);
+  border-radius: 0 0 8px 0;
+}
+
+#zero button {
+  border-radius: 0 0 0 8px;
+}
+
+button {
+  border: none;
+}
+
+#first-oper button {
+  background-color: rgb(221, 221, 221);
+}
+
+#first-oper button:active {
+  font-size: 20px;
+}
+
+.table1 tr td button:hover {
+  background-color: rgb(150, 144, 144);
+}
+
+.table1 tr td button:active {
+  font-size: 20px;
+}
+
+#first-oper button:hover {
+  background-color: rgb(99, 96, 96);
+}
+
+#btn button:hover {
+  background-color: rgb(243, 115, 69);
+}
